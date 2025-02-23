@@ -8,26 +8,6 @@ This project aims to provide a personalized approach to calculating protein requ
 
 ---
 
-## 📊 Protein Level Calculation Formula
-The calculation of daily protein requirements is based on the user's activity level:
-
-1. **Basic Requirement** (Sedentary Lifestyle):
-   \[ \text{Protein Intake} = \text{Weight} \times 0.8 \text{g} \]
-
-2. **Moderate Activity** (Light Workouts, 1-3 days a week):
-   \[ \text{Protein Intake} = \text{Weight} \times 1.2 \text{g} \]
-
-3. **Intense Workouts** (4-6 days a week):
-   \[ \text{Protein Intake} = \text{Weight} \times 1.5 \text{g} \]
-
-4. **Athlete Level Training** (6+ days of rigorous training):
-   \[ \text{Protein Intake} = \text{Weight} \times 2.0 \text{g} \]
-
-### **BMI Calculation**
-Body Mass Index (BMI) is calculated using the formula:
-
-\[ \text{BMI} = \frac{\text{Weight (kg)}}{\left(\text{Height (m)}\right)^2} \]
-
 BMI classification:
 - **Underweight:** BMI < 18.5
 - **Normal weight:** 18.5 - 24.9
@@ -36,12 +16,6 @@ BMI classification:
 
 ### **Calorie Estimation (BMR Calculation)**
 The Basal Metabolic Rate (BMR) is estimated using the **Harris-Benedict equation**:
-
-\[ BMR = (10 \times \text{Weight}) + (6.25 \times \text{Height}) - (5 \times \text{Age}) + S \]
-
-Where:
-- \( S = +5 \) for males, \( -161 \) for females.
-
 To determine **total daily energy expenditure (TDEE)**, the BMR is multiplied by an activity factor:
 
 - **Sedentary (little to no exercise):** BMR × 1.2
